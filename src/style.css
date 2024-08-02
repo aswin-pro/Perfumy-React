@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+nav h1{
+    margin-left: 10px;
+}
+ul{
+    display: flex;
+    margin-right: 20px;
+    gap: 30px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+ul a:hover{
+    border-bottom:1px solid black ;
+}
+.sidenav ul a:hover{
+    border-bottom: 1px solid white;
+}
+ul li{
+    list-style: none;
+}
+.menu img{
+    width: 20px;
+    display: none;
+    cursor: pointer;
+}
+.sidenav ul{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 100vh;
+    background-color: black;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    margin-left: -50%;
+}
+.sidenav a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.close{
+    color:rgb(255, 254, 254);
+    text-align: end;
+}
+/* Search */
+.searchbar{
+    border: 1px solid black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+.searchbar input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+.searchbar input:focus{
+    outline: none;
+}
+/* product */
+.product img{
+    width: 200px;
+}
+.product img:hover{
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.product__one{
+    width: 212px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.product__one p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+button{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* about us */
+.aboutus{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+.aboutus p{
+    margin-top: 10px;
+    font-size: 26px;
+}
+/* footer */
+.contact{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    margin-top: 40px;
+    
+}
+.contact p{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .searchbar{
+        width: 300px;
+    }
+    ul{
+        display: none;
+    }
+    .menu img{
+        display: flex;
+    }
+}
+@media screen and (max-width:800px) {
+    .searchbar{
+        width: 300px;
+    }
+
+}
+
+
+
+
