@@ -16,7 +16,7 @@ Welcome to the Perfumy landing page, a modern and elegant platform created using
 - **Vercel**: For hosting the website and ensuring fast and reliable performance.
 
 ## How to View
-You can explore the Perfumy LandingPage by 
+You can explore the Perfumy LandingPage by https://perfumy-react-smoky-chi.vercel.app/
 
 ## Contributing
 If you'd like to contribute or suggest improvements, please feel free to open an issue or create a pull request. Your feedback and contributions are highly valued!
